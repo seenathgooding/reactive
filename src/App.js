@@ -7,28 +7,28 @@ class App extends Component {
   constructor() {
     super();
     this.state = {
-      monsters: [],
+      sgooding: [],
       searchField: "",
     };
   }
   componentDidMount() {
-    fetch("https://jsonplaceholder.typicode.com/users")
+    fetch("http://universities.hipolabs.com/search?country=United+States")
       .then((response) => response.json())
-      .then((users) => this.setState({ monsters: users }));
+      .then((users) => this.setState({ sgooding: users }));
   }
 
   render() {
-    const { monsters, searchField } = this.state;
-    const filteredMonsters = monsters.filter((monster) =>
-      monster.name.toLowerCase().includes(searchField.toLowerCase())
+    const { sgooding, searchField } = this.state;
+    const filtered = sgooding.filter((sg) =>
+      sg.name.toLowerCase().includes(searchField.toLowerCase())
     );
     return (
       <div className="App">
         <SearchBox
-          placeholder="search monsters"
+          placeholder="Search Universities"
           handleChange={(e) => this.setState({ searchField: e.target.value })}
         />
-        <CardList monsters={filteredMonsters} />
+        <CardList sgooding={filtered} />
       </div>
     );
   }
