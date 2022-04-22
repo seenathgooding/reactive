@@ -25,6 +25,7 @@ class App extends Component {
     );
     return (
       <div className="App">
+        <div className="seenath" >Seenath Gooding 814117267</div>
         <container className="bestcountrytrinidad" >{this.state.bestCountry}</container>
         <p> <button onClick={() => {this.setState({bestCountry:'Trinidad'})}}>What's the best country?</button> </p>
         <SearchBox className='SearchboxSAG'
