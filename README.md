@@ -34,6 +34,7 @@ The image above demonstrates that if "pa" is entered as the search string it wil
 - The best country in my heart will always be Sweet Sweet Trinidad <3. 
 
 The user can click the button at the top and it will respond by displaying which country is the best.
+
 ![image](https://user-images.githubusercontent.com/13033872/164582290-60c1523f-d169-417b-9d8f-172c69e22703.png)
 The figure above is before the button is clicked
 
