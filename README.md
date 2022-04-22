@@ -12,12 +12,12 @@ This project uses this api for information about the countries: [API Used](https
 The flag image was retrieved from [FLag API](https://flagcdn.com/)
 To retrieve the flag of a particular country you need to specify the standard alpha2code.
 
-## Design
+## 2) Design
 
 The page was designed to put red white and black around the top where it says Trinidad is the best country.
 The rest of the directory was designed for visibility, with the bright green cards contrasting with the black background
 
-## Functionality
+## 3) Functionality
 
 I always wanted to memorise and be able to identify countries' flags and capitals. Hence I was motivated to create a directory where I can easily search for it(because I will probably never memorise it).
 You can search countries by name to view their
@@ -43,10 +43,10 @@ The figure above is before the button is clicked
 ![image](https://user-images.githubusercontent.com/13033872/164582321-586e8f0d-8085-4427-9782-1cf07afa15f9.png)
 The figure above is after the button is clicked.
 
-## Deployment
+## 4) Hosting and Deployment
 The app was hosted on and deployed to Github Pages, Vercel and Firebase.
 
-## References
+## 5) References
 
 1) Lecture Notes
 2) https://www.w3schools.com/
