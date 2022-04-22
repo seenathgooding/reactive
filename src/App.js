@@ -25,9 +25,9 @@ class App extends Component {
     );
     return (
       <div className="App">
-        <p>{this.state.bestCountry}</p>
-        <p> <button onClick={() => {this.setState({bestCountry:'Trinidad'})}}>Whats the best country?</button> </p>
-        <SearchBox
+        <container className="bestcountrytrinidad" >{this.state.bestCountry}</container>
+        <p> <button onClick={() => {this.setState({bestCountry:'Trinidad'})}}>What's the best country?</button> </p>
+        <SearchBox className='SearchboxSAG'
           placeholder="Search Countries"
           handleChange={(e) => this.setState({ searchField: e.target.value })}
         />
