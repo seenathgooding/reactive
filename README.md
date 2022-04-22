@@ -2,6 +2,8 @@
 ## Country Info Directory
 
 The link project published on Github can be found here [Country Info Directory](https://seenathgooding.github.io/reactive/).
+![image](https://user-images.githubusercontent.com/13033872/164582610-b406b1fd-823c-4a4c-a633-90d8625ea68c.png)
+
 
 ## 1) API
 
