@@ -7,6 +7,7 @@ class App extends Component {
   constructor() {
     super();
     this.state = {
+      bestCountry:'The Best Country is',
       sgooding: [],
       searchField: "",
     };
@@ -24,6 +25,8 @@ class App extends Component {
     );
     return (
       <div className="App">
+        <p>{this.state.bestCountry}</p>
+        <p> <button onClick={() => {this.setState({bestCountry:'Trinidad'})}}>Whats the best country?</button> </p>
         <SearchBox
           placeholder="Search Countries"
           handleChange={(e) => this.setState({ searchField: e.target.value })}
