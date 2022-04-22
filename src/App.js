@@ -12,7 +12,7 @@ class App extends Component {
     };
   }
   componentDidMount() {
-    fetch("http://universities.hipolabs.com/search?country=United+States")
+    fetch("https://restcountries.com/v2/all")
       .then((response) => response.json())
       .then((users) => this.setState({ sgooding: users }));
   }
@@ -25,7 +25,7 @@ class App extends Component {
     return (
       <div className="App">
         <SearchBox
-          placeholder="Search Universities"
+          placeholder="Search Countries"
           handleChange={(e) => this.setState({ searchField: e.target.value })}
         />
         <CardList sgooding={filtered} />
